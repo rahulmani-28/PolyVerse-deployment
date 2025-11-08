@@ -7,6 +7,8 @@ from tensorflow.keras.models import load_model
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from flask_cors import CORS  # Import CORS
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"#tp hide warnings
 
 # Initialize Flask app
 app = Flask(__name__)
