@@ -8,4 +8,3 @@ tensorflow==2.15.0
 joblib==1.4.2
 requests==2.32.3
 rdkit-pypi==2022.9.5
-pickle
