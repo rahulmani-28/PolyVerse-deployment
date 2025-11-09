@@ -4,7 +4,8 @@ gunicorn==21.2.0
 numpy>=1.22,<1.24
 pandas==2.2.3
 scikit-learn==1.5.2
-tensorflow==2.12.0
+tensorflow==2.18.0
 joblib==1.4.2
 requests==2.32.3
 rdkit-pypi==2022.9.5
+keras==3.5.0 
